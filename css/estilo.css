@@ -1,0 +1,144 @@
+.barra-nav__logo {
+  width: 70px;
+height: 70px; }
+
+.nav-item-active {
+  color: black; }
+
+.barra-nav {
+  display: flex;
+  background-color: #e2593a;
+  justify-content: space-between; }
+
+.nav-link {
+  font-size: 20px;
+}
+
+.descripcion__parrafo {
+  margin-top: 30px; }
+
+.nosotros__img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px; }
+
+.nosotros__nombre {
+  text-align: center; }
+
+.nosotros__texto {
+  text-align: center; }
+
+.servicios__opciones {
+  list-style: none;
+  font-size: 50px;
+  padding: 20px;
+  margin-left: 30px; }
+
+.servicios {
+  display: flex; }
+
+.servicios--lado {
+  flex-direction: row; }
+
+.servicios--lado1 {
+  flex-direction: row-reverse; }
+
+.servicios__opciones--tamanio {
+  font-size: 30px; }
+
+.servicios__opciones p {
+  font-size: 20px;
+  margin-top: 0%; }
+
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+  transition-duration: 3s; }
+
+.conclusion {
+  padding: 20px; }
+
+.conclusion__respuestas {
+  font-size: 30px;
+  margin: 30px 0px;
+  text-align: center; }
+
+.conclusion__motivos {
+  margin: 17px 0px;
+  padding-left: 40px; }
+
+.conclusion__motivos__items {
+  margin: 10px; }
+
+.conclusion__motivos__items {
+  margin: 10px; }
+
+.conclusion__motivos p {
+  padding-left: 10px; }
+
+.carru {
+  justify-content: center; }
+
+.carru__img {
+  height: 500px; }
+
+.txt-area {
+  margin-top: 30px; }
+
+.form-control {
+  text-align: left; }
+
+.form-inline {
+  justify-content: center; }
+
+.formito {
+  text-align: center; }
+
+.footer__derechos {
+  margin-top: 25px; }
+
+.footer {
+  background-color: #e2593a;
+  margin-top: 15px;
+  text-align: center; }
+
+.footer__contacto {
+  font-size: 15px; }
+
+.footer__titulo {
+  font-size: 28px; }
+
+.tam-letra-1 {
+  font-size: 18px;
+  margin-top: 20px; }
+
+.tam-letra-2 {
+  font-size: 36px;
+  margin-top: 20px; }
+
+.tam-letra-3 {
+  font-size: 54px;
+  margin-top: 20px; }
+
+.tituloImportante {
+  font-size: 48px;
+  text-align: center;
+  padding: 10px; }
+
+.anchoBanner {
+  width: 100%;
+}
+
+.sinPadding {
+  padding: 0px;
+}
+
+.espacioBanner {
+  margin-top: 40px;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 760px) {
+  .barra-nav__logo {
+    width: 50px;
+    height: 50px; }
+  .footer__derechos {
+    margin-top: 20px; } }
